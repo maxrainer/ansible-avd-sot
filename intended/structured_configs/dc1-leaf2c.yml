@@ -32,6 +32,7 @@ local_users:
 - name: admin
   privilege: 15
   role: network-admin
+  sha512_password: $6$KvDI7MShbzkdeb/t$krSxh1rBsOy/fZ29kVCMnDUCEqSvG84g5kVKmwU3N5MfL8JFOFWfqSQUUrHorsbkKOo4JK13mM.kwNj/J7B6P/
   no_password: true
 - name: ansible
   privilege: 15
