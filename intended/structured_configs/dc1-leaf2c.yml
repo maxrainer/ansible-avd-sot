@@ -52,6 +52,7 @@ management_interfaces:
 management_api_http:
   enable_vrfs:
   - name: MGMT
+  enable_http: true
   enable_https: true
 ntp:
   local_interface:
