@@ -102,6 +102,8 @@ vlan_internal_order:
 ip_name_servers:
 - ip_address: 192.168.1.1
   vrf: MGMT
+- ip_address: 8.8.8.8
+  vrf: MGMT
 spanning_tree:
   mode: none
 local_users:
