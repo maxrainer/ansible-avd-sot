@@ -112,6 +112,7 @@ ip name-server vrf MGMT 192.168.1.1
 | Server | VRF | Preferred | Burst | iBurst | Version | Min Poll | Max Poll | Local-interface | Key |
 | ------ | --- | --------- | ----- | ------ | ------- | -------- | -------- | --------------- | --- |
 | 0.pool.ntp.org | MGMT | True | - | - | - | - | - | - | - |
+| 1.pool.ntp.org | MGMT | - | - | - | - | - | - | - | - |
 
 #### NTP Device Configuration
 
@@ -119,6 +120,7 @@ ip name-server vrf MGMT 192.168.1.1
 !
 ntp local-interface vrf MGMT Management1
 ntp server vrf MGMT 0.pool.ntp.org prefer
+ntp server vrf MGMT 1.pool.ntp.org
 ```
 
 ### Management API HTTP

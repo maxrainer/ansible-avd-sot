@@ -228,6 +228,8 @@ ntp:
   - name: 0.pool.ntp.org
     vrf: MGMT
     preferred: true
+  - name: 1.pool.ntp.org
+    vrf: MGMT
 vlans:
 - id: 4093
   tenant: system
