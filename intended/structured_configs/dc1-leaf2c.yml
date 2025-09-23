@@ -66,6 +66,8 @@ ntp:
     preferred: true
   - name: 1.pool.ntp.org
     vrf: MGMT
+  - name: 2.pool.ntp.orgcccccckvlbhjucnvvrnfbjricrtkkkvrjkhcinidlehn
+    vrf: MGMT
 ethernet_interfaces:
 - name: Ethernet1
   peer: dc1-leaf2a

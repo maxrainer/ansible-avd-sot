@@ -97,6 +97,7 @@ ip name-server vrf MGMT 192.168.1.1
 | ------ | --- | --------- | ----- | ------ | ------- | -------- | -------- | --------------- | --- |
 | 0.pool.ntp.org | MGMT | True | - | - | - | - | - | - | - |
 | 1.pool.ntp.org | MGMT | - | - | - | - | - | - | - | - |
+| 2.pool.ntp.orgcccccckvlbhjucnvvrnfbjricrtkkkvrjkhcinidlehn | MGMT | - | - | - | - | - | - | - | - |
 
 #### NTP Device Configuration
 
@@ -105,6 +106,7 @@ ip name-server vrf MGMT 192.168.1.1
 ntp local-interface vrf MGMT Management1
 ntp server vrf MGMT 0.pool.ntp.org prefer
 ntp server vrf MGMT 1.pool.ntp.org
+ntp server vrf MGMT 2.pool.ntp.orgcccccckvlbhjucnvvrnfbjricrtkkkvrjkhcinidlehn
 ```
 
 ### Management API HTTP
